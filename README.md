@@ -1,2 +1,2 @@
-# dev.emokid.repo
-My new rootless jailbreak repo! for palera1n &amp; Dopamine
+# emokid99.github.io/repo/
+My new rootless jailbreak repo! for palera1n and Dopamine
