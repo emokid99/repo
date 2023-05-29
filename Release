@@ -2,7 +2,7 @@ Origin: emokid
 Label: emokid
 Suite: stable
 Version: 2.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Codename: realemokid
+Architectures: iphoneos-arm
 Components: main
-Description: we live, we die.
+Description: we live we die
