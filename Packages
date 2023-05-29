@@ -1,0 +1,32 @@
+Package: com.emokidxd.bootsound
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: emokid <gabemanson123@gmail.com>
+Filename:/debs/com.emokidxd.bootsound_1.0.0_iphoneos-arm64.deb
+Size: 71250
+Depends: mobilesubstrate, firmware (>= 15.0)
+MD5sum: 4f870a03e5081534537e0408311ad350
+SHA1: 58a0b1bfda72593f42f6856fbb514434087820bb
+SHA256: 5d6b8fee74cf19963d6360f415ccbc382f0681206e538602ea4742a4dc8dbc2e
+Section: Tweaks
+Description: Custom sounds can be found in /var/mobile/Documents/BootSounds (.caf files ONLY)
+Author: emokid
+Name: BootSound
+Author: emokid <gabemanson123@gmail.com>
+Tags: compatible_min::ios14.0, compatible_max::ios15.0
+
+Package: com.pixelomer.mobilegoose
+Version 1.3.2
+Architecture: iphoneos-arm
+Maintainer: pixelomer
+Filename:/debs/com.pixelomer.mobilegoose_1.3.2_iphoneos-arm64.deb
+Size: 633040
+Depends: mobilesubstrate, firmware (>= 15.0)
+MD5sum: 5f4b08190df7b22d5fcc1965b1410949
+SHA1: bb02b85516e2c4290379d07d43041e57e588dea8
+SHA256: 04a8a7e7390af127b92c3a30445abe92400bc7dac28aa24b66252f9aa82384b9
+Section: Tweaks
+Description: Rootless/unofficial version of Mobile Goose credit to @Pixelomer for the orinigal tweak
+Author: Pixelomer
+Name: MobileGoose (Rootless/Unofficial)
+Tags: compatible_min::ios14.0, compatible_max::ios15.0

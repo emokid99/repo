@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>MobileGoose</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.pixelomer.mobilegoose</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>set</key>
+			<string>setPreferenceValue:forNotifyingSwitch:</string>
+			<key>anyNotification</key>
+			<string>com.pixelomer.mobilegoose/PreferenceChange</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>PXMGPModListController</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Mods</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Gifts</string>
+			<key>footerText</key>
+			<string>You can put images and notes inside "/Library/MobileGoose" for the goose to bring.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.pixelomer.mobilegoose</string>
+			<key>key</key>
+			<string>BringImages</string>
+			<key>label</key>
+			<string>Bring Images</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.pixelomer.mobilegoose</string>
+			<key>key</key>
+			<string>BringNotes</string>
+			<key>label</key>
+			<string>Bring Notes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.pixelomer.mobilegoose</string>
+			<key>key</key>
+			<string>DisableDefaultGifts</string>
+			<key>label</key>
+			<string>Disable Default Gifts</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Gift Count</string>
+			<key>footerText</key>
+			<string>You can tap the gifts to dismiss them.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>defaults</key>
+			<string>com.pixelomer.mobilegoose</string>
+			<key>key</key>
+			<string>MaxGiftCount</string>
+			<key>default</key>
+			<integer>5</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>50</integer>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Goose Count</string>
+			<key>footerText</key>
+			<string>SpringBoard needs to be restarted for this change to take effect.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>defaults</key>
+			<string>com.pixelomer.mobilegoose</string>
+			<key>key</key>
+			<string>GooseCount</string>
+			<key>requiresRespring</key>
+			<true/>
+			<key>default</key>
+			<integer>1</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>max</key>
+			<integer>50</integer>
+			<key>recommendedMax</key>
+			<integer>10</integer>
+			<key>warningMessage</key>
+			<string>Having more than %@ geese on-screen could make your device unusable.</string>
+			<key>set</key>
+			<string>setPreferenceValue:forDangerousSlider:</string>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Restart SpringBoard</string>
+			<key>action</key>
+			<string>didRequestRespring:</string>
+			<key>enabled</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+			<key>footerText</key>
+			<string>MobileGoose was inspired by Desktop Goose, which was made by Samperson. Thanks to him for making an interesting program like that which lead to the creation of MobileGoose.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>pixelomer (MobileGoose)</string>
+			<key>action</key>
+			<string>URLButtonPerformedAction:</string>
+			<key>url</key>
+			<string>https://twitter.com/pixelomer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Samperson (Desktop Goose)</string>
+			<key>action</key>
+			<string>URLButtonPerformedAction:</string>
+			<key>url</key>
+			<string>https://twitter.com/SamNChiet</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Untitled Goose Game</string>
+			<key>action</key>
+			<string>URLButtonPerformedAction:</string>
+			<key>url</key>
+			<string>https://goose.game</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>MobileGoose</string>
+</dict>
+</plist>

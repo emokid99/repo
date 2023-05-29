@@ -1,0 +1,9 @@
+Package: com.emokidxd.bootsound
+Name: BootSound
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Custom sounds can be found in /var/mobile/Documents/BootSounds (.caf files ONLY)
+Maintainer: Emo Kid's Repo
+Author: Emo Kid's Repo
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common
