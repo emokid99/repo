@@ -1,8 +1,8 @@
-Origin: dev.emokid.repo
-Label: dev.emokid.repo
+Origin: https://dev.emokid.repo/
+Label: https://dev.emokid.repo/
 Suite: stable
 Version: 2.0
 Codename: realemokid
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: we live we die
