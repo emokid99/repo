@@ -3,7 +3,7 @@ export TARGET = iphone:clang:15.2:13.0
 export SYSROOT = $(THEOS)/sdks/iPhoneOS15.2.sdk
 export THEOS_PACKAGE_SCHEME=rootless
 # export PREFIX = $(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
-# THEOS_PACKAGE_SCHEME=rootless flag
+#import <rootles.h>
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 SUBPROJECTS = Tweak Preferences
